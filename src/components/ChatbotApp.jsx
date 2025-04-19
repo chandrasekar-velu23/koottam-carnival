@@ -62,7 +62,7 @@ function ChatbotApp() {
       } else {
         addMessage("There was an issue with your registration. Please try again or contact us directly at info@koottamcarnival.com", 'bot');
       }
-      */
+      
     } catch (error) {
       addMessage("Sorry, we encountered an error. Please try again later or email us at info@koottamcarnival.com", 'bot');
     }

@@ -46,9 +46,8 @@ function ChatbotApp() {
         setCurrentStep('complete');
       }, 1500);
       
-      // Uncomment and update when you have your Google Sheets API ready
-      /*
-      const response = await fetch('https://script.google.com/macros/s/YOUR_DEPLOYMENT_ID/exec', {
+      
+      const response = await fetch('https://script.google.com/macros/s/AKfycbyN9WJY-_XDHqNOMr_nDiXy8-ARsWxw17CsjCBbNKyMbgVkD4qeIfMp7gEUKW0nbMXecQ/exec', {
         method: 'POST',
         body: JSON.stringify(formData),
         headers: {
